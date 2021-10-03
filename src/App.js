@@ -6,7 +6,7 @@ function App() {
   return (
     <section>
       <NavBar />
-      <ItemListContainer />
+      <ItemListContainer  titulo="Disculpe las molestias" imagen="./assets/sitio-en-construccion.jpg"/>
     </section>
   );
 }

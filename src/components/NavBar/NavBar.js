@@ -6,10 +6,10 @@ export const NavBar = () => {
     return (
         <div>
             <header>
-                <div id="logo">
-                    <img src="./assets/logo-Staggerer.png"></img>
-                </div>
-                <nav>
+                <nav id="nav">
+                    <div id="logo">
+                        <img src="./assets/logo-Staggerer.png"></img>
+                    </div>
                     <ul>
                         <li><a href="#">Películas</a></li>
                         <li><a href="#">Series</a></li>
@@ -17,8 +17,8 @@ export const NavBar = () => {
                         <li><a href="#">Libros</a></li>
                         <li><a href="#">Comics</a></li>
                     </ul>
+                    <CartWidget />
                 </nav>
-                <CartWidget />
             </header>
             
         </div>

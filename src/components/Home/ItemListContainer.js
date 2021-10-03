@@ -1,9 +1,12 @@
 import React from 'react'
 
-export const ItemListContainer = () => {
+export const ItemListContainer = (props) => {
+
+    const {titulo, imagen} = props
     return (
-        <div>
-            
-        </div>
+        <section id="homeContent">
+            <h1>{titulo}</h1>
+            <img src={imagen}></img>           
+        </section>
     )
 }
